@@ -1,0 +1,1249 @@
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:03:30 PM*/
+//package com;
+//import java.util.Scanner;
+		
+
+		public class Waktu {
+		
+
+		    public static void main(String[] args){
+		        Scanner input = new Scanner(System.in);
+		
+
+		        int totJam, jam, totMen, menit, detik, konversi;
+		
+
+		        System.out.print("Masukkan total detik : ");
+		        konversi = input.nextInt();
+		
+
+		        detik = konversi % 60;
+		        totMen = konversi / 60;
+		        menit = totMen % 60;
+		        totJam = totMen / 60;
+		        jam = totJam % 24;
+		
+
+		        System.out.println("Detik sekarang  : " +detik+ " detik");
+		        System.out.println("Total menit     : " +totMen+ " menit");
+		        System.out.println("Menit sekarang  : " +menit+ " menit");
+		        System.out.println("Total jam       : " +totJam+ " jam");
+		        System.out.println("Jam sekarang    : " +jam+ " jam");
+		        System.out.println("Tampil waktu    : " + jam + ":" + menit + ":" + detik);
+
+
+
+
+//*NIM  	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas1;
+
+
+public class Asgdll {
+
+
+    public static void main(String[] args) {
+        float f=20.0f;
+        double fll;
+
+        fll= 10.0f;
+        System.out.println("f : " +f+ "\nfll: " +fll);
+    }
+
+
+}
+
+//*NIM   	: 13020200038
+//Nama      : Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas10;
+		
+
+		public class Hello {
+		
+		    public static void main(String[] args){
+		      
+		        System.out.print ("Hello");
+		        System.out.print ("\nHello");
+		        System.out.println("World");
+		        System.out.println("Welcome");
+
+		    }
+		
+
+		}
+
+		
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas11;
+		
+
+		public class Incr {
+
+		    public static void main(String[] args) {
+		        int i, j;
+		        i = 3;
+		        j = i++;
+		
+
+		        System.out.println("Nilai i : " + (++i) + "\nNilai j : " + j);
+		    }
+		
+
+		}
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas12;		
+
+	public class Oper1 {
+		
+		    public static void main(String[] args) 
+		        int n = 10; /* 1010 */
+		        int x = 1;  /* 1 */
+		        int y = 2;  /* 10 */
+	
+
+		        System.out.println("n = "+ n);
+		        System.out.println("x = "+ x);
+		        System.out.println("y = "+ y);
+		        System.out.println("n & 8 = "+ (n & 8));    /* 1010 AND 1000 */
+		        System.out.println("x & ~ 8 = "+ (x & ~8)); /* 1 AND 0111 */
+		        System.out.println("y << 2 = "+ (y << 2));  /* 10 ==> 1000 = 8 */
+		        System.out.println("y >> 3 = "+ (y >> 3));  /* 10 ==> 0000 = 0 */
+		    }
+		
+
+		}
+
+		
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas13;
+		
+
+		public class Oper2 {
+
+		    public static void main(String[] args) {
+		        char i, j;
+		
+		        i = 3;          /* 00000011 dalam biner */
+		        j = 4;          /* 00000100 dalam biner */
+		
+
+		        System.out.println("i = "+ (int) i);
+		        System.out.println("j = "+ j);
+		
+		        System.out.println("i & j = "+ (i & j));       /* 0: 00000000 dalam biner */
+		        System.out.println("i | j = "+ (i | j));       /* 7: 00000111 biner */
+		        System.out.println("i ^ j = "+ (i ^ j));       /* 7: 00000111 biner */
+		        System.out.println(Math.pow(i, j));            /* Class Math memiliki method pow(a,b) untuk pemangkatan*/
+		        System.out.println(" ~i = "+ ~i);              /* -4: 11111100 biner */
+		    }
+		
+
+		}
+
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas14;
+		
+
+		public class Oper3 {
+		
+		    public static void main(String[] args) {
+
+		        if (true && true){ System.out.println(true && true); }      /* true = true and true */
+		        if (true & true) { System.out.println(true & false); }      /* true & true */
+		        if (true) { System.out.println(true); }                     /* true */
+		        if (true || true){ System.out.println(true); }              /* true = true or true */
+		        if (true|false) { System.out.println(true|false); }         /* true|false */
+		
+
+		    }
+		}
+
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas15;
+		
+
+		public class Oper4 {
+		
+		    public static void main(String[] args) {
+
+		        int i = 0;      
+		        int j = 0;
+
+		        char c = 8; char d = 10;
+		        int e = (((int)c > (int)d) ? c: d);
+		        int k = ((i>j) ? i: j);
+	
+
+		        System.out.print ("Nilai e = "+ e);
+		        System.out.print ("\nNilai k = "+ k);
+		        i = 2;
+		        j = 3;
+		
+
+		        k = ((i++>j++) ? i: j) ;
+		
+
+		        System.out.print ("\nNilai k = "+ k);
+		
+
+		    }
+		
+
+		}
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas16;
+
+
+		public class Oprator {
+		
+		    public static void main(String[] args) {
+		
+
+		            boolean Bool1, Bool2, TF ; int i,j, hsl ;
+		            float x,y,res;
+		
+		            System.out.println("Silahkan baca teksnya dan tambahkan perintah untuk menampilkan output");
+		            System.out.println("Operasi Logika");
+		            //AND
+
+		            System.out.println("==AND==");
+		            Bool1 = true; Bool2 = false;
+		            TF = Bool1 && Bool2 ;   /* Boolean AND */
+		            System.out.println(Bool1 + " && " + Bool2 + " = " + TF);
+		            //OR 
+
+		            System.out.println("==OR==");
+		            Bool1 = true; Bool2 = false;
+		            TF = Bool1 || Bool2 ;   /* Boolean OR */
+		            System.out.println(Bool1 + " || " + Bool2 + " = " + TF);
+		            //NOT
+
+		            System.out.println("==NEGASI==");
+		            Bool1 = true; Bool2 = false;
+		            TF = ! Bool1 ;          /* NOT */
+		            System.out.println(" ! " + Bool1 + " = " + TF);
+		            //XOR
+
+		            System.out.println("==XOR==");
+		            Bool1 = true; Bool2 = false;
+		            TF = Bool1 ^Bool2;      /* XOR */
+		            System.out.println(Bool1 + " ^" + Bool2 + " = " + TF);
+		
+
+		        /* operasi numerik */
+		            System.out.println("Operasi Numerik");
+		            //Penjumlahan
+		            i = 5; j = 2 ;
+		            hsl = i + j; 
+		            System.out.println(i + " + " + j + " = " + hsl);
+		            //Pengurangan
+		            i = 5; j = 2;
+		            hsl = i - j;
+		            System.out.println(i + " - " + j + " = " + hsl);
+		            //Perkalian
+		            i = 5; j = 2;
+		            hsl = i * j;
+		            System.out.println(i + " * " + j + " = " + hsl);
+		            //Pembagian pecahan
+		            i = 5; j = 2;
+		            float hasil = (float) i / j;
+		            System.out.println(i + " / " + j + " = " + hasil);
+		            //Pembagian bulat
+		            i = 5; j = 2;
+		            hsl = i / j;
+		            System.out.println(i + " / " + j + " = " + hsl);
+		            //Modulo
+		            i = 5; j = 2;
+		            hsl = i % j;
+		            System.out.println(i + " % " + j + " = " + hsl);
+		
+
+		        /* operasi numerik */
+		            System.out.println("Operasi Numerik");
+		            //Penjumlahan
+		            x = 5 ; y = 5 ;
+		            res = x + y; 
+		            System.out.println(x + " + " + y + " = " + res); 
+		            //Pengurangan
+		             x = 5 ; y = 5 ;
+		             res = x - y; 
+		             System.out.println(x + " - " + y + " = " + res); 
+		            //Pembagian
+		            x = 5 ; y = 5 ;
+		            res = x / y; 
+		            System.out.println(x + " / " + y + " = " + res); 
+		            //Perkalian
+		             x = 5 ; y = 5 ;
+		             res = x * y; 
+		             System.out.println(x + " * " + y + " = " + res); 
+		
+
+		        /* operasi relasional numerik */
+		            System.out.println("Operasi Relasional Numerik");
+		            //Persamaan
+		            i = 5; j = 2;
+		            TF = (i==j);
+		            System.out.println(i + " == " + j + " : " + TF);
+		            //Pertidaksamaan
+		            i = 5; j = 2;
+		            TF = (i!=j);
+		            System.out.println(i + " != " + j + " : " + TF);
+		            //Kurang dari
+		            i = 5; j = 2;
+		            TF = (i < j);
+		            System.out.println(i + " < " + j + " : " + TF);
+		            //Lebih dari
+		            i = 5; j = 2;
+		            TF = (i > j);
+		            System.out.println(i + " > " + j + " : " + TF);
+		            //Kurang dari atau sama dengan
+		            i = 5; j = 2;
+		            TF = (i <= j);
+		            System.out.println(i + " <= " + j + " : " + TF);
+		            //Lebih dari atau sama dengan
+		            i = 5; j = 2;
+		            TF = (i >= j);
+		            System.out.println(i + " >= " + j + " : " + TF);
+		
+
+		        /* operasi relasional numerik */
+		            System.out.println("Operasi Relasional Numerik");
+		            //Persamaan
+		            x = 5; y = 5;
+		            TF = (x == y);
+		            System.out.println(x + " == " + y + " : " + TF);
+		            //Pertidaksamaan
+		            x = 5; y = 5;
+		            TF = (x != y);
+		            System.out.println(x + " != " + y + " : " + TF);
+		            //Kurang dari
+		            x = 5; y = 5;
+		            TF = (x < y);
+		            System.out.println(x + " < " + y + " : " + TF);
+		            //Lebih dari
+		            x = 5; y = 5;
+		            TF = (x > y);
+		            System.out.println(x + " > " + y + " : " + TF);
+		            //Kurang dari atau sama dengan
+		            x = 5; y = 5;
+		            TF = (x <= y);
+		            System.out.println(i + " <= " + y + " : " + TF);
+		            //Lebih dari atau sama dengan
+		            x = 5; y = 5;
+		            TF = (x >= y);
+		            System.out.println(x + " >= " + y + " : " + TF);
+		
+
+		    }
+		
+
+		}
+
+
+		
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas2;
+		
+
+		public class Asign {
+		
+		    public static void main(String[] args) {
+		        int i;
+
+		        System.out.print("hello\n"); i=5;
+		        System.out.println("Ini nilai i : " +i);
+		    }
+		
+
+		}
+
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas3;
+		
+
+		public class ASIGNi {
+		
+
+		    public static void main(String[] args) {
+		        //TODO Auto-generated method stub
+		        /* KAMUS */
+		        short ks = 1;
+		        int ki = 1;
+		        long kl = 10000;
+		        char c = 65;    
+		        char cl ='Z';   
+		        double x = 50.2f;
+		        float y = 50.2f;
+
+		        System.out.println("Karakter = " +c);
+		        System.out.println("Karakter = " +cl);
+		
+		        System.out.println("Karakter = " +c);
+		        System.out.println("Karakter = " +cl);
+		
+
+		        System.out.println("Bilangan integer (short) = " +ks);
+		        System.out.println("\t(int) = " +ki);
+		        System.out.println("\t(long) = " +kl);
+		        System.out.println("Bilangan Real x = " +x);
+		        System.out.println("Bilangan Real y = " +y);
+		
+
+		    }
+		
+
+		}
+
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas4;
+import java.util.Scanner;
+		
+		public class BacaData {
+
+		    public static void main(String[] args) {
+
+		        int a;
+		        Scanner masukan;
+
+		        System.out.print("Contoh membaca dan menulis, ketik nilai integer : \n");
+		        masukan = new Scanner(System.in);
+		        a = masukan.nextInt(); /* coba ketik : masukan.nextInt(); Apa akibatnya?*/
+		        System.out.print("Nilai yang dibaca : " +a);
+		    }
+		
+
+		}
+
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas5;
+
+		import java.io.BufferedReader;
+		import java.io.IOException;
+		import java.io.InputStreamReader;
+		
+
+		public class Bacakar {
+
+		    public static void main(String[] args) throws IOException {
+
+		        char cc;
+		        int bil;
+		        InputStreamReader isr = new InputStreamReader(System.in);
+		        BufferedReader dataIn = new BufferedReader(isr);
+		        // atau
+		        BufferedReader datAIn = new BufferedReader(new InputStreamReader(System.in));
+		
+
+		        System.out.print ("hello\n");
+		        System.out.print("baca 1 karakter : ");
+		
+		        cc =dataIn.readLine().charAt(0);
+		        System.out.print("baca 1 bilangan : ");
+		
+		        bil =Integer.parseInt(datAIn.readLine());
+		        /*String kar = JOptionPane.showInputDialog("Karakter 1 : ");
+		        System.out.println(kar);*/
+		        //JOptionPane.showMessageDialog(null, "hello");
+		        System.out.print (cc +"\n" +bil+"\n");
+		        System.out.print ("bye \n");
+		
+
+		    }
+		}
+
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas6;
+		
+
+		public class Casting1 {
+		
+		    public static void main(String[] args) {
+		        int a=5, b=6;
+		        float d=2.f, e=3.2f;
+		        char g='5';
+		        double k=3.14;
+		
+
+		        System.out.println((float)a);   // int <-- float
+		
+
+		        System.out.println((double)b);  // int <-- double
+		        System.out.println((int)d);     // float <-- int
+		        System.out.println((double)e);  // float <-- double
+		        System.out.println((int)g);     // char <-- int  (ASCII)
+		        System.out.println((float)g);   // char <-- float (ASCII)
+		        System.out.println((double)g);  // char <-- double (ASCII)
+		        System.out.println((int)k);     // double <-- int
+		        System.out.println((float)k);   // double <-- float
+		
+
+		    }
+		
+
+		}
+
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas7;
+		
+		public class Casting2 {
+		
+		    public static void main(String[] args){
+		        int a=8, b=9;
+		        float d=2.f, e=3.2f;
+		        char g='5';
+		        double k=3.14;
+		        String n="67", m="45", l="100";
+		
+
+		        a = Integer.parseInt(n);    
+		        k = Double.parseDouble(m);  
+		        d = Float.parseFloat(l);    
+		        System.out.println("a : "+a+"\nk : "+k+"\nd : "+d);
+		
+
+		        n = String.valueOf(b);      /*Konversi Integer ke String*/
+		        m = String.valueOf(g);      /*Konversi String ke Double*/
+		        l = String.valueOf(e);      /*Konversi Float ke String*/
+		        System.out.println("n : "+n+"\nm : "+m+"\nl : "+l);
+		
+
+		        k = Double.valueOf(a).intValue();   /*Konversi Integer ke Double*/
+		        double c = Integer.valueOf(b).doubleValue();
+		        System.out.println("k : "+k+"\nc : "+c+"\nl : "+l);
+		
+
+		    }
+		
+
+		}
+
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas8;
+		
+		public class Ekspresi {
+
+		    public static void main(String[] args) {
+
+		        int x = 1;
+		        int y = 2;
+
+		        System.out.print("x = "+ x + "\n");
+		        System.out.print("y = "+ y + "\n");
+		        System.out.print("hasil ekspresi = (x<y)?x:y = "+ ((x < y) ? x : y)); 
+
+		    }
+		}
+
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas9;
+		
+
+		public class Ekspresi1 {
+		
+		    public static void main(String[] args){
+
+		        int x = 1; int y = 2; float fx; float fy;
+		
+		        System.out.print ("x/y (format integer) = "+ x/y);
+		        System.out.print ("\nx/y (format float) = "+ x/y);
+	
+		        fx=x;
+		        fy=y;
+		
+
+		        System.out.print ("\nx/y (format integer) = "+ fx/fy);
+		        System.out.print ("\nx/y (format float) = "+fx/fy);
+		
+
+		        System.out.print ("\nfloat(x)/float(y) (format integer) = "+(float)x/(float)y);
+		        System.out.print ("\nfloat(x)/float(y) (format float) = "+(float)x/(float)y);
+		
+
+		        x = 10; y = 3;
+		
+
+		        System.out.print ("\nx/y (format integer) = "+ x/y);
+		        System.out.print ("\nx/y (format float)   = "+ x/y);
+		
+
+		    }
+		
+
+		}
+
+ 
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+
+		import java.io.BufferedReader;
+		import java.io.IOException;
+		import java.io.InputStreamReader;
+		
+
+		import javax.swing.*;
+		public class BacaString {
+		
+
+		    public static void main(String[] args) throws IOException {
+		        String str;
+
+		        BufferedReader datAIn = new BufferedReader(new InputStreamReader(System.in));
+
+		        System.out.print ("\nBaca string dan Integer: \n");
+		        System.out.print("masukkan sebuah string: ");
+		        str= datAIn.readLine();
+		        System.out.print ("String yang dibaca : "+ str);
+		
+
+		    }
+		
+
+		}
+
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas10;
+		import java.util.Scanner;
+		
+		public class PriFor {
+
+		    public static void main(String[] args) {
+
+		        int i,N;
+		        Scanner masukan=new Scanner(System.in);
+
+		        System.out.print ("Baca N, print 1 s/d N ");
+		        System.out.print ("N = ");
+		
+
+		        N=masukan.nextInt();
+		
+
+		        for (i = 1; i <= N; i++){
+		        System.out.println (i); };
+		        System.out.println ("Akhir program \n");
+		
+
+		    }
+		
+
+		}
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas11;
+		import java.util.Scanner;
+		
+		public class PrintIterasi {
+		
+		    public static void main(String[] args) {
+
+		        int N;
+		        int i;
+		        Scanner masukan=new Scanner(System.in);
+
+		        System.out.print ("Nilai N > 0 = ");    
+		        N = masukan.nextInt();
+		
+
+		        i = 1; 
+		        System.out.print ("Print i dengan ITERATE : \n");
+		        for (;;){
+		            System.out.println(i); /* Proses */
+		            if (i == N)
+		                /* Kondisi Berhenti */ break;
+		            else {
+		                i++; /* Next Elmt */
+		            }
+		        }       /* (i == N) */
+		    }
+		
+
+		}
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas12;;
+		import java.util.Scanner;
+		
+		public class PrintRepeat {
+		
+
+		    public static void main(String[] args) {
+
+		        int N;
+		        int i;
+		        Scanner masukan=new Scanner(System.in);
+		
+		        System.out.print ("Nilai N > 0 = ");
+
+		        N = masukan.nextInt();
+		
+		        i = 1;
+
+		        System.out.print ("Print i dengan REPEAT: \n");
+		        do{
+		            System.out.print (i+"\n");  
+		            i++;    /* Next Elmt */
+		        } while (i <= N);   
+		
+
+		    }
+		
+
+		}
+
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas13;
+		import java.util.Scanner;
+
+		public class PrintWhile {
+
+		    public static void main(String[] args) {
+
+		        int N;
+		        int i;
+		        Scanner masukan=new Scanner(System.in);
+		
+
+		        System.out.print ("Nilai N > 0 = "); 
+		        N = masukan.nextInt();
+		        i = 1; 
+		
+
+		        System.out.print ("Print i dengan WHILE: \n");
+		        while (i <= N)   /* Kondisi pengulangan */ {
+		            System.out.println (i);     /* Proses */
+		            i++;    /* Next Elmt */
+		        };          /* (i > N) */
+		
+
+		    }
+		
+
+		}
+
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas14;
+		import java.util.Scanner;
+		
+
+		public class PrintWhile1 {
+		
+
+		    public static void main(String[] args) {
+
+		        int N;
+		        int i = 1;
+		        Scanner masukan=new Scanner(System.in);
+
+		
+
+		        System.out.print ("Nilai N > 0 = ");
+		        N = masukan.nextInt();
+		        System.out.print ("Print i dengan WHILE (ringkas): \n");
+		        while (i <= N){
+		            System.out.println (i++);
+		        }   
+		
+
+		    }
+		}
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas15;
+		
+
+		public class PrintXinterasi {
+		
+
+		    public static void main(String[] args) {
+
+		        int Sum=0;
+		        int x;
+		        Scanner masukan=new Scanner(System.in);
+
+		        System.out.print ("Masukkan nilai x (int), akhiri dg 999: ");
+		        x = masukan.nextInt(); 
+		        if (x == 999){
+		            System.out.print ("Kasus kosong \n");
+		        }else{          
+		            Sum = x;    
+		            for (;;){
+		                System.out.print ("Masukkan nilai x (int), akhiri dg 999 : ");
+		                x = masukan.nextInt();
+		                if(x==999)
+		                    break;
+		                else{
+		                    Sum = Sum + x; 
+		                }
+		            }
+		        }
+		
+
+		        System.out.println("Hasil penjumlahan = "+ Sum);
+		
+		    }
+		}
+
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas16;
+		import java.util.Scanner;
+		
+
+		public class PrintXRepeat {
+		
+
+		    public static void main(String[] args) {
+
+		        int Sum;
+		        int x;
+		        Scanner masukan = new Scanner(System.in);
+		
+		        System.out.print ("Masukkan nilai x (int), akhiri dg 999 : ");
+		        x = masukan.nextInt(); 
+		        if (x == 999){
+		            System.out.print("Kasus kosong \n");
+		        }else {     
+		            Sum = 0; 
+		            do{
+		                Sum = Sum + x;  
+		                System.out.print ("Masukkan nilai x (int), akhiri dg 999 : ");
+		                x = masukan.nextInt();  
+		            } while (x != 999);    
+		                System.out.println ("Hasil penjumlahan = "+Sum);
+		
+
+		        }
+		
+
+		    }
+		
+
+		}
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas17;
+		import java.util.Scanner;
+		
+
+		public class PrintXWhile {
+		
+
+		    public static void main(String[] args) {
+
+		        int Sum;
+		        int x;
+		        Scanner masukan=new Scanner(System.in);
+
+		        Sum = 0;  
+		        System.out.print ("Masukkan nilai x (int), akhiri dg 999 : ");
+		        x = masukan.nextInt();     
+		        while (x != 999)  {
+		            Sum = Sum + x; 
+		            System.out.print("Masukkan nilai x (int), akhiri dg 999 : ");
+		            x = masukan.nextInt(); 
+		        }
+		        System.out.println("Hasil penjumlahan = "+ Sum);   
+		
+
+		    }
+		}
+
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas18;
+		import java.util.Scanner;
+		
+		public class SubProgram {
+		
+
+		    public static int maxab (int a, int b){
+
+		        return ((a >= b) ? a : b);
+		    }
+		
+
+		    public static void tukar (int a, int b){   
+		        int temp;
+		        temp = a;
+		        a = b;
+		        b = temp;
+		        System.out.println ("Ke dua bilangan setelah tukar: a = "+ a +" b = "+ b);
+		    }
+		
+		    public static void main(String[] args) {
+
+		        int a, b;
+		        Scanner masukan=new Scanner(System.in);
+		        System.out.print ("Maksimum dua bilangan\n");
+		        System.out.print ("Ketikkan dua bilangan, pisahkan dg RETURN : \n");
+		        a = masukan.nextInt();
+		        b = masukan.nextInt();
+		        System.out.println ("Ke dua bilangan : a = "+ a +" b = "+ b);
+		        System.out.println ("Maksimum = " + (maxab(a, b)));
+		        System.out.print("Tukar kedua bilangan...\n");
+		        tukar (a, b);
+		
+
+		    }
+		
+
+		}
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas19;
+		import java.util.Scanner;
+		
+		public class Tempair {
+
+		    public static void main(String[] args) {
+
+		        int T;
+		        Scanner masukan=new Scanner(System.in);
+
+		        System.out.print ("Contoh IF tiga kasus \n");
+		        System.out.print ("Temperatur (der. C) = ");
+		        T=masukan.nextInt();
+		        if (T < 0) {
+		            System.out.print ("Wujud air beku \n"+ T);
+		        }else if ((0 <= T) && (T <= 100)){
+		            System.out.print ("Wujud air cair \n"+ T);
+		        }else if (T > 100){
+		            System.out.print ("Wujud air uap/gas \n"+ T);
+		        };
+		
+
+		    }
+		
+
+		}
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas2;
+		
+
+		public class ForEver {
+		
+		    public static void main(String[] args) {
+
+		        System.out.println("Program akan looping, akhiri dengan ^c");
+		        while (true){
+		            System.out.print ("Print satu baris ....\n");
+		        }
+		
+
+		    }
+		
+
+		}
+
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas3;
+
+
+		import java.util.Scanner;
+		
+		public class If1 {
+		
+		    public static void main(String[] args) {
+
+		        Scanner masukan=new Scanner(System.in);
+		        int a;
+		
+
+		        System.out.print ("Contoh IF satu kasus \n");
+		        System.out.print ("Ketikkan suatu nilai integer : ");
+		        a = masukan.nextInt();
+		        if (a >= 0)
+		        System.out.print ("\nNilai a positif "+ a);
+		
+
+		    }
+		
+
+		}
+
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas4;
+		import java.util.Scanner;
+
+
+		public class If2 {
+
+		    public static void main(String[] args) {
+
+		        int a;
+		        Scanner masukan=new Scanner(System.in);
+
+		        System.out.print ("Contoh IF dua kasus \n");
+		        System.out.print ("Ketikkan suatu nilai integer :");
+		        a=masukan.nextInt();
+		
+
+		        if (a >= 0){
+		            System.out.println ("Nilai a positif "+ a);
+		        }else {        
+		            System.out.println ("Nilai a negatif "+ a);
+		        }
+		
+
+		    }
+		}
+
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas5;
+		import java.util.Scanner;
+
+
+		public class If3 {
+		
+		    public static void main(String[] args) {
+
+		        int a;
+		        Scanner masukan=new Scanner(System.in);
+		
+
+		        System.out.print ("Contoh IF tiga kasus \n");
+		        System.out.print ("Ketikkan suatu nilai integer :");
+		        a=masukan.nextInt();
+		        if (a > 0){
+		            System.out.println ("Nilai a positif "+ a);
+		        }else if (a == 0){
+		            System.out.println ("Nilai Nol "+ a);
+		        }else /* a > 0 */ {
+		            System.out.println ("Nilai a negatif "+ a);
+		        }
+		
+
+		    }
+		}
+
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas6;
+		
+
+		public class KasusBoolean {
+		
+		    public static void main(String[] args) {
+
+		        boolean bool;
+
+		        bool = true;
+		        if(bool) {
+		            System.out.print("true\n");
+		        } else
+		            System.out.print("false\n");
+		        if(!bool) {
+		            System.out.print("salah\n");
+		        } else
+		            System.out.print("benar\n");
+		
+
+		    } 
+		}
+
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas7;
+		import java.util.Scanner;
+		
+
+		public class KasusSwitch {
+
+		    public static void main(String[] args) {
+
+		        char cc;
+		        Scanner masukan=new Scanner(System.in);
+
+		        System.out.print ("Ketikkan sebuah huruf, akhiri dengan RETURN \n");
+		        cc=masukan.next().charAt(0);
+		        switch (cc) {
+		            case 'a': { System.out.print (" Yang anda ketik adalah a\n"); break;}
+		            case 'u': { System.out.print (" Yang anda ketik adalah u\n"); break;}
+		            case 'e': { System.out.print (" Yang anda ketik adalah e\n"); break;}
+		            case 'i': { System.out.print (" Yang anda ketik adalah i\n"); break;}
+		            case 'o': { System.out.print (" Yang anda ketik adalah o\n"); break;}
+		            default:
+		                System.out.print (" Yang anda ketik adalah huruf mati\n");
+		        }
+		
+
+		    }
+		}
+
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas8;
+		import java.util.Scanner;
+		
+		public class Konstant {
+		
+		    public static void main(String[] args) {
+
+		            final float PHI = 3.1415f;
+		            float r;
+		            Scanner masukan=new Scanner(System.in);
+
+		            System.out.print ("Jari-jari lingkaran =");
+		            r = masukan.nextFloat();
+
+		            System.out.print ("Luas lingkaran = "+ (PHI * r * r)+"\n");
+		            System.out.print ("Akhir program \n");
+		
+
+		    }
+		
+
+		}
+
+
+//*NIM    	: 13020200038
+//Nama    	: Hilmiatsal
+//Hari/Tgl	: Rabu, 23 Maret 2022
+//Waktu   	: 15:17 PM*/
+//package tugas9;
+		import java.util.Scanner;
+		
+		public class Max2 {
+		
+		    public static void main(String[] args) {
+
+		        int a, b;
+		        Scanner masukan=new Scanner(System.in);
+
+		        System.out.print ("Maksimum dua bilangan : \n");
+		        System.out.print ("Ketikkan dua bilangan, pisahkan dg RETURN :\n");
+		        a=masukan.nextInt();
+		        b=masukan.nextInt();
+		        System.out.println ("Ke dua bilangan : a = "+ a+" b = "+b);
+		        if (a >= b){
+		            System.out.println ("Nilai a yang maksimum "+ a);
+		        }else /* a > b */{
+		            System.out.println ("Nilai b yang maksimum : "+ b);
+		        }
+		
+
+		    }
+		
+
+		}
+
